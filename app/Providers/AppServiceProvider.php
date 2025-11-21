@@ -20,6 +20,7 @@ use App\Repositories\Interface\RoomStatusRepositoryInterface;
 use App\Repositories\Interface\TransactionRepositoryInterface;
 use App\Repositories\Interface\TypeRepositoryInterface;
 use App\Repositories\Interface\UserRepositoryInterface;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -40,6 +41,10 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(TransactionRepositoryInterface::class, TransactionRepository::class);
         $this->app->bind(TypeRepositoryInterface::class, TypeRepository::class);
         $this->app->bind(UserRepositoryInterface::class, UserRepository::class);
+
+        if (env('REDIRECT_HTTPS', false)) {
+            URL::forceScheme('https');
+        }
     }
 
     /**
