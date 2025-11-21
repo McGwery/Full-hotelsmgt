@@ -290,7 +290,7 @@
                 <div class="logo-container">
                     <i class="fas fa-hotel"></i>
                 </div>
-                <h4 class="mb-2 fw-bold">Laravel Hotel</h4>
+                <h4 class="mb-2 fw-bold">Hotel Mgt</h4>
                 <p class="mb-0 opacity-75">Welcome back! Please sign in to continue.</p>
             </div>
 
@@ -354,11 +354,11 @@
                     </div>
                 </form>
 
-                <div class="demo-info">
-                    <h6><i class="fas fa-info-circle me-2"></i>Demo Account</h6>
-                    <p><strong>Email:</strong> wailantirajoh@gmail.com</p>
-                    <p><strong>Password:</strong> wailan</p>
-                </div>
+{{--                <div class="demo-info">--}}
+{{--                    <h6><i class="fas fa-info-circle me-2"></i>Demo Account</h6>--}}
+{{--                    <p><strong>Email:</strong> wailantirajoh@gmail.com</p>--}}
+{{--                    <p><strong>Password:</strong> wailan</p>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

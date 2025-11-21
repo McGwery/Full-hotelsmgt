@@ -6,7 +6,7 @@
                 <i class="fas fa-hotel"></i>
             </div>
             <div class="brand-text">
-                <h4 class="mb-0">Laravel Hotel</h4>
+                <h4 class="mb-0">Hotel Mgt</h4>
             </div>
         </div>
 

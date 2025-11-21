@@ -3,7 +3,7 @@
         <div class="col-md-6">
             <div class="d-flex align-items-center">
                 <i class="fas fa-hotel text-primary me-2"></i>
-                <small class="text-muted">© {{ date('Y') }} Laravel Hotel. All rights reserved.</small>
+                <small class="text-muted">© {{ date('Y') }} Hotel Mgt. All rights reserved.</small>
             </div>
         </div>
         <div class="col-md-6">
