@@ -21,7 +21,7 @@ RUN docker-php-ext-install pdo pgsql pdo_pgsql gd bcmath zip exif \
     && pecl install redis \
     && docker-php-ext-enable redis
 
-WORKDIR /usr/share/nginx/html/
+WORKDIR /usr/share/hotels/html/
 
 # Copy the codebase
 COPY . ./
