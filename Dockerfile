@@ -17,7 +17,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
 # Install required packages
-RUN docker-php-ext-install pdo pgsql pdo_pgsql gd bcmath zip exif \
+RUN docker-php-ext-install pdo pgsql pdo_pgsql gd bcmath pcntl zip exif \
     && pecl install redis \
     && docker-php-ext-enable redis
 
